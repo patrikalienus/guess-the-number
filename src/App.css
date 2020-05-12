@@ -1,0 +1,43 @@
+.App {
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 50px 0;
+}
+
+input[type="number"] {
+	padding: 20px;
+	font-size: 25px;
+	width: 250px;
+	text-align: center;
+}
+
+div.status {
+	padding: 28px 0;
+}
+div.status .enteredNumber {
+	font-size: 28px;
+}
+div.status .currentStatus {
+	color: black;
+	font-size: 28px;
+}
+div.status .currentStatus.low {
+	color: blue;
+}
+div.status .currentStatus.high {
+	color: red;
+}
+div.status .currentStatus.correct {
+	color: green;
+}
+
+div.status div.attempts {
+	padding: 15px 0;
+}
